@@ -8,8 +8,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>edu.gcu.cst239</groupId>
-    <artifactId>java-maven-template</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <artifactId>lab5-networking</artifactId>
+    <version>1.0.0</version>
+    <name>CST-239 Lab 5 Networking</name>
 
     <properties>
         <maven.compiler.release>21</maven.compiler.release>
@@ -19,6 +20,21 @@
 
     <!-- Project dependencies will be added in later labs. -->
     <dependencies>
+    <!-- Jackson Databind -->
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+            <version>2.20.0</version>
+        </dependency>
+
+        <!-- JUnit 5 (Jupiter) -->
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter</artifactId>
+            <version>5.13.4</version>
+            <scope>test</scope>
+        </dependency>
+
     </dependencies>
 
     <build>
